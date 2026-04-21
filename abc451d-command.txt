@@ -1,0 +1,7 @@
+hyperfine \
+--warmup 5 \
+--runs 30 \
+--export-markdown abc451d-bench.md \
+'./abc451d-perry < abc451d-input.txt' \
+'deno run --quiet --allow-all  abc451d-deno.ts < abc451d-input.txt' \
+'bun run abc451d-bun.ts < abc451d-input.txt'

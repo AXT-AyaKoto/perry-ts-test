@@ -1,0 +1,92 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@perryts/perry':
+        specifier: ^0.5.112
+        version: 0.5.112
+
+packages:
+
+  '@perryts/perry-darwin-arm64@0.5.112':
+    resolution: {integrity: sha512-6yMhQDACiBUEYrxyh2grHNMnzG5FxBQOCb4WhitwgloCVSk1zPLP/qycsRNF0ijgYWxGehgRo4LW5UPaPVXc1w==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@perryts/perry-darwin-x64@0.5.112':
+    resolution: {integrity: sha512-uvQ7KG+neEA7PWX4n8n9kR5yS4Y8irZqlPkBUYa5ZvQPy8PEJ9sKfEfzNpDTaOXkQQCJnCbOXhAJUEnnmi4UZQ==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@perryts/perry-linux-arm64-musl@0.5.112':
+    resolution: {integrity: sha512-H5Pq9of9Vn1A5qO4yEuTc4QhxP3va7TV1DY1bcOF3gX+ziYCmwsyOQCPZ/lc10C7ov2qH3zHo+Der6nvqqPOIw==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@perryts/perry-linux-arm64@0.5.112':
+    resolution: {integrity: sha512-J/YXSWirRrmdDyonhQwNY06WJPmy2EdckT+G9PdvkzfgBbs7+9i95hcvNvsVWWL+MQUR7aLQTwXHGYdx78Jj7Q==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@perryts/perry-linux-x64-musl@0.5.112':
+    resolution: {integrity: sha512-/WUpY6ennJW9l4XqkjFXlw6XIxPjMMHOrdlN75JAo9hdt9Hn9WYPaQ8g/nnue1BXM+3b0XanS/MVyw6KPwuFsA==}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@perryts/perry-linux-x64@0.5.112':
+    resolution: {integrity: sha512-4y951Ed+g41QaahIbRTfs5lIHWU4rfe0D6oakq+heQDWpQXFqofL6j5KwCA2pw0r56ZuIJ+uDCwL1MfsC8EN7w==}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@perryts/perry-win32-x64@0.5.112':
+    resolution: {integrity: sha512-ZT9mHG4HrnezBGe5aDXfLBRH/s6Dy8ZQD/riOG77P5vgUTSH/iVbNxY5ZG2xpEQDhGTeNDmR9JgrG4bplFm9yg==}
+    cpu: [x64]
+    os: [win32]
+
+  '@perryts/perry@0.5.112':
+    resolution: {integrity: sha512-8FuXJABgydRbKEGhdJe/d8cqtyFFAuLnrZ58ZkE8PI4CGTskMA30gobZc52F9D234aJSFsEKZQWYG4V2q0P93Q==}
+    engines: {node: '>=16'}
+    hasBin: true
+
+snapshots:
+
+  '@perryts/perry-darwin-arm64@0.5.112':
+    optional: true
+
+  '@perryts/perry-darwin-x64@0.5.112':
+    optional: true
+
+  '@perryts/perry-linux-arm64-musl@0.5.112':
+    optional: true
+
+  '@perryts/perry-linux-arm64@0.5.112':
+    optional: true
+
+  '@perryts/perry-linux-x64-musl@0.5.112':
+    optional: true
+
+  '@perryts/perry-linux-x64@0.5.112':
+    optional: true
+
+  '@perryts/perry-win32-x64@0.5.112':
+    optional: true
+
+  '@perryts/perry@0.5.112':
+    optionalDependencies:
+      '@perryts/perry-darwin-arm64': 0.5.112
+      '@perryts/perry-darwin-x64': 0.5.112
+      '@perryts/perry-linux-arm64': 0.5.112
+      '@perryts/perry-linux-arm64-musl': 0.5.112
+      '@perryts/perry-linux-x64': 0.5.112
+      '@perryts/perry-linux-x64-musl': 0.5.112
+      '@perryts/perry-win32-x64': 0.5.112
