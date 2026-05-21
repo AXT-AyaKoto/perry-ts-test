@@ -1,5 +1,5 @@
-| Command | Mean [s] | Min [s] | Max [s] | Relative |
+| Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
-| `./abc451d-perry < abc451d-input.txt` | 1.219 ± 0.096 | 1.121 | 1.527 | 3.85 ± 0.39 |
-| `deno run --quiet --allow-all  abc451d-deno.ts < abc451d-input.txt` | 0.417 ± 0.048 | 0.371 | 0.615 | 1.32 ± 0.17 |
-| `bun run abc451d-bun.ts < abc451d-input.txt` | 0.317 ± 0.020 | 0.289 | 0.389 | 1.00 |
+| `./abc451d-perry < abc451d-input.txt` | 336.2 ± 11.1 | 329.0 | 384.4 | 1.15 ± 0.06 |
+| `deno run --quiet --allow-all  abc451d-deno.ts < abc451d-input.txt` | 368.2 ± 10.4 | 358.7 | 420.8 | 1.27 ± 0.06 |
+| `bun run abc451d-bun.ts < abc451d-input.txt` | 291.1 ± 11.7 | 278.6 | 349.1 | 1.00 |

@@ -11,6 +11,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.33.0",
   "dependencies": {
-    "@perryts/perry": "^0.5.112"
+    "@perryts/perry": "^0.5.1008"
   }
 }
